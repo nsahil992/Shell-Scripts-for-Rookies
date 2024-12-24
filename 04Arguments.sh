@@ -15,3 +15,8 @@ echo "The color of my $car_name is $car_color"
 car_speed=$3
 
 echo "I drive my $car_color $car_name around $car_speed kmph"
+
+# Count and list arguments
+
+echo "Number of arguments: $#"
+echo "All arguments: $@"
