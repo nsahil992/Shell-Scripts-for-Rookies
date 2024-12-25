@@ -25,3 +25,13 @@ then
 else
 	echo "Sorry, You are not eligible"
 fi
+
+
+str="Hello"
+
+if [ "$str" = "Hello" ];
+then
+	echo "String matches"
+else
+	echo "String doesn't match"
+fi
