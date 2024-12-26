@@ -16,7 +16,7 @@ correct_password="secret"
 
 while true
 do 
-	read -p "Enter the password: " password
+	read -s -p "Enter the password: " password
 
 	if [ "$password" = "$correct_password" ];
 	then
