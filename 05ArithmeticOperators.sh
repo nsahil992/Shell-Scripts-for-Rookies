@@ -20,3 +20,15 @@ expr 7 / 6
 echo $B / $A | bc -l
 
 
+
+# Second Method
+
+num1=38
+num2=11
+
+echo "Addition: $((num1 + num2))"
+echo "Subtraction: $((num1 - num2))"
+echo "Multiplication: $((num1 * num2))"
+echo "Division: $((num1 / num2))"
+echo "Modulus: $(( num1 % num2 ))"
+
