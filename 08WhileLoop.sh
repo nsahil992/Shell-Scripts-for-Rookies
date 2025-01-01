@@ -26,3 +26,21 @@ do
 		echo "Access Denied"
 	fi
 done
+
+number=5
+counter=1
+
+while true
+do
+read -p "Type c to continue, any other letter to stop: " input
+
+if [ "$input" = "c" ];
+then
+	echo $((number * counter))
+	echo $((++counter))
+else
+	echo "Quitting"
+	echo "Bye"
+	break
+fi
+done
